@@ -1,0 +1,22 @@
+package com.mycompany.provauniversidade;
+
+public class Teste {
+    public static void main(String args[]){
+        
+        ProvaUCB NotaUCB = new ProvaUCB(6.5, 7.5);
+        if (NotaUCB.aprovado()){
+            System.out.println("Aluno UCB APROVADO! Parabéns!");
+        } else {
+            System.out.println("Aluno UCB REPROVADO!");
+        }
+        
+        ProvaFafifo NotaFafifo = new ProvaFafifo(5, 2);
+        if (NotaFafifo.aprovado()){
+            System.out.println("Aluno Fafifo APROVADO! Parabéns!");
+        } else {
+            System.out.println("Aluno Fafifo REPROVADO!");
+        }
+
+    }
+
+}
