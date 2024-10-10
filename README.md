@@ -1,3 +1,4 @@
+![Resultado](https://github.com/user-attachments/assets/b955e8e3-3e93-44a5-a16e-419e420c752d)
 Exercício - Abstração
 
 Siga os passos:
